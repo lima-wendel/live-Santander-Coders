@@ -1,5 +1,9 @@
+window.addEventListener("load", () => {
+
+
+
 // tempo em segundos
-let sec = 180;
+let sec = 360;
 
 const countDiv = document.getElementById("timer");
 
@@ -29,3 +33,5 @@ const secpass = () => {
 };
 
 const countDown = setInterval(() => secpass(), 1000);
+
+});
