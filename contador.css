@@ -19,3 +19,8 @@ article {
     overflow: hidden;
     box-shadow: 3px 3px 10px #ccc;
 }
+
+article h3 {
+    padding: 10px;
+    color: #fff;
+}
