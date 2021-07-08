@@ -1,4 +1,10 @@
 window.addEventListener("load", () => {
+    const botao = document.getElementById("botao");
+
+botao.addEventListener("click",() => {
+
+
+//window.addEventListener("load", () => {
 
 
 
@@ -35,3 +41,4 @@ const secpass = () => {
 const countDown = setInterval(() => secpass(), 1000);
 
 });
+})
